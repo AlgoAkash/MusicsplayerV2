@@ -2,17 +2,17 @@ const songs = [
     { title: "Changes", artist: "By XXXTENTACION", file: "song1.mp3", cover: "cover1.jpg" },
     { title: "SAD!", artist: "By XXXTENTACION", file: "SONG2.mp3", cover: "cover2.jpg" },
     { title: "Numb", artist: "By XXXTENTACION", file: "song3.mp3", cover: "cover3.jpg" },
-    { title: "Already Dead", artist: "By Juice Wrld", file: "song4.mp3", cover: "cover4.jpg" },
+    { title: "Already Dead", artist: "By Juice Wrld", file: "song4.mp3", cover: "cover4.jpg", bgVideo: "Already Dead.mp4" },
     { title: "Chemical", artist: "By Post Malone", file: "song5.mp3", cover: "cover5.jpg" },
     { title: "A Thousands bad times", artist: "By Post Malone", file: "song6.mp3", cover: "cover6.jpg" },
     { title: "Depression & Obsession", artist: "By XXXTENTACION", file: "song7.mp3", cover: "cover7.jpg" },
-    { title: "Dirty", artist: "By KSI", file: "song8.mp3", cover: "cover8.jpg" },
-    { title: "The Party Never Ends", artist: "By Juice Wrld", file: "song2.mp3", cover: "cover9.jpg" },
+    { title: "Dirty", artist: "By KSI", file: "song8.mp3", cover: "cover8.jpg", bgVideo: "Dirty.mp4" },
+    { title: "The Party Never Ends", artist: "By Juice Wrld", file: "song9.mp3", cover: "cover9.jpg", bgVideo: "PARTYNEVERENDS.mp4" },
     { title: "Misfit", artist: "By Juice Wrld", file: "song10.mp3", cover: "cover9.jpg" },
-    { title: "AGATS2", artist: "By Juice Wrld", file: "song11.mp3", cover: "cover9.jpg" },
-    { title: "Lace It", artist: "By Juice Wrld", file: "song12.mp3", cover: "cover9.jpg" },
+    { title: "AGATS2", artist: "By Juice Wrld", file: "song11.mp3", cover: "cover9.jpg", bgVideo: "AGATS2.mp4" },
+    { title: "Lace It", artist: "By Juice Wrld", file: "song12.mp3", cover: "cover9.jpg", bgVideo: "LACEIT.mp4" },
     { title: "Cuffed", artist: "By Juice Wrld", file: "song13.mp3", cover: "cover9.jpg" },
-    { title: "Empty Out Your Pockets", artist: "By Juice Wrld", file: "song14.mp3", cover: "cover9.jpg" },
+    { title: "Empty Out Your Pockets", artist: "By Juice Wrld", file: "song14.mp3", cover: "cover9.jpg", bgVideo: "empty out your pockets.mp4" },
     { title: "KTM Drip", artist: "By Juice Wrld", file: "song15.mp3", cover: "cover9.jpg" },
     { title: "Love Letter", artist: "By Juice Wrld", file: "song16.mp3", cover: "cover9.jpg" },
     { title: "Condone It", artist: "By Juice Wrld", file: "song17.mp3", cover: "cover9.jpg" },
@@ -28,7 +28,7 @@ const songs = [
     { title: "Spend IT", artist: "By Juice Wrld", file: "song27.mp3", cover: "cover9.jpg" },
     { title: "Scared of the DARK", artist: "By Lil Wayne, Ty Dolla $ign, XXXTENTACION", file: "song28.mp3", cover: "cover10.jpg" },
     { title: "the remedy for a broken heart (why am I so in love)", artist: "By XXXTENTACION", file: "song29.mp3", cover: "cover1.jpg" },
-    { title: "Lucid Dreams", artist: "By Juice Wrld", file: "song30.mp3", cover: "cover11.jpg" },
+    { title: "Lucid Dreams", artist: "By Juice Wrld", file: "song30.mp3", cover: "cover11.jpg", bgVideo: "Lucid Dreams.mp4" },
     { title: "Ayala (Outro)", artist: "By XXXTENTACION", file: "song31.mp3", cover: "cover7.jpg" },
     { title: "bad vibes forever", artist: "By XXXTENTACION", file: "song32.mp3", cover: "cover12.jpg" },
     { title: "I Don't Wanna Do This Anymore", artist: "By XXXTENTACION", file: "song33.mp3", cover: "cover13.jpg" },
@@ -36,12 +36,21 @@ const songs = [
     { title: "Again (feat. XXXTENTACION)", artist: "By Noah Cyrus", file: "song35.mp3", cover: "cover15.jpg" },
     { title: "Blueberry Faygo", artist: "By Lil Mosey", file: "song36.mp3", cover: "cover16.jpg" },
     { title: "Armed And Dangerous", artist: "By Juice Wrld", file: "song37.mp3", cover: "cover17.jpg" },
-    { title: "Wishing Well", artist: "By Juice Wrld", file: "song38.mp3", cover: "cover18.jpg" },
+    { title: "Wishing Well", artist: "By Juice Wrld", file: "song38.mp3", cover: "cover18.jpg", bgVideo: "Wishing Well.mp4" },
     { title: "Demons and Angels (feat. Juice WRLD)", artist: "A Boogie Wit da Hoodie", file: "song40.mp3", cover: "cover19.jpg" },
     { title: "VOICES (feat. XXXTENTACION)", artist: "By Skye", file: "song41.mp3", cover: "cover20.jpg" },
     { title: "what are you so afraid of", artist: "By XXXTENTACION", file: "song42.mp3", cover: "cover21.jpg" },
     { title: "Blastoff (feat. Juice WRLD)", artist: "By Internet Money", file: "song43.mp3", cover: "cover22.jpg" },
     { title: "Fast", artist: "By Juice Wrld", file: "song44.mp3", cover: "cover14.jpg" },
+    { title: "Life's A Mess II (with Clever & Post Malone)", artist: "By Juice WRLD, Clever, Post Malone", file: "song45.mp3", cover: "cover23.jpg", bgVideo: "life's a mess.mp4" },
+    { title: "Glo'd up", artist: "By Juice WRLD", file: "song46.mp3", cover: "cover24.jpg", bgVideo: "Glo'd up.mp4" },
+    { title: "In My Head", artist: "By Juice WRLD", file: "song47.mp3", cover: "cover25.jpg", bgVideo: "In My Head.mp4" },
+    { title: "Robbery", artist: "By Juice WRLD", file: "song48.mp3", cover: "cover26.jpg", bgVideo: "Robbery.mp4" },
+    { title: "All Girls Are The Same", artist: "By Juice WRLD", file: "song49.mp3", cover: "cover27.jpg", bgVideo: "All Girls Are The Same.mp4" },
+    { title: "Stay High", artist: "By Juice WRLD", file: "song50.mp3", cover: "cover18.jpg", bgVideo: "Stay High.mp4" },
+    { title: "Conversations", artist: "By Juice WRLD", file: "song51.mp3", cover: "cover18.jpg", bgVideo: "Stay High.mp4" },
+    { title: "Titanic", artist: "By Juice WRLD", file: "song52.mp3", cover: "cover18.jpg", bgVideo: "Stay High.mp4" },
+    { title: "Righteous", artist: "By Juice WRLD", file: "song53.mp3", cover: "cover18.jpg", bgVideo: "Righteous.mp4" },
 ];
 
 let currentSongIndex = 0;
@@ -64,6 +73,8 @@ const totalDurationEl = document.getElementById('total-duration'); // New elemen
 const audio = new Audio();
 audio.src = songs[currentSongIndex].file;
 audio.volume = volumeControl.value;
+const videoSource = document.getElementById('video-source');
+const backgroundVideo = document.getElementById('background-video');
 
 function loadSong(index) {
     const song = songs[index];
@@ -72,17 +83,27 @@ function loadSong(index) {
     songArtist.textContent = song.artist;
     coverImage.src = song.cover;
     audio.src = song.file;
+    // Update background video
+    if (song.bgVideo) {
+        videoSource.src = song.bgVideo;
+    } else {
+        videoSource.src = "BG.mp4"; // Use default video
+    }
+    backgroundVideo.load(); // Reload the video
     pauseSong(); // Start in paused state
 }
 
+
 function playSong() {
     audio.play();
+    backgroundVideo.play(); // Play the background video
     playBtn.textContent = "⏸"; // Change to pause icon
     isPlaying = true;
 }
 
 function pauseSong() {
     audio.pause();
+    backgroundVideo.pause(); // Pause the background video
     playBtn.textContent = "▶️"; // Change to play icon
     isPlaying = false;
 }
