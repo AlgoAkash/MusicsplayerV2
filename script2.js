@@ -1,6 +1,6 @@
 const songs = [
     { title: "Changes", artist: "By XXXTENTACION", file: "song1.mp3", cover: "cover1.jpg" },
-    { title: "SAD!", artist: "By XXXTENTACION", file: "song2.mp3", cover: "cover2.jpg" },
+    { title: "SAD!", artist: "By XXXTENTACION", file: "SONG2.mp3", cover: "cover2.jpg" },
     { title: "Numb", artist: "By XXXTENTACION", file: "song3.mp3", cover: "cover3.jpg" },
     { title: "Already Dead", artist: "By Juice Wrld", file: "song4.mp3", cover: "cover4.jpg" },
     { title: "Chemical", artist: "By Post Malone", file: "song5.mp3", cover: "cover5.jpg" },
