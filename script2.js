@@ -67,6 +67,7 @@ const songs = [
     { title: "Titanic", artist: "By Juice WRLD", file: "song52.mp3", cover: "cover18.jpg", bgVideo: "Stay High.mp4" },
     { title: "Righteous", artist: "By Juice WRLD", file: "song53.mp3", cover: "cover18.jpg", bgVideo: "Righteous.mp4" },
      { title: "Die With A Smile", artist: "By Lady gaga & Bruno Mars", file: "song69.mp3", cover: "cover69.jpg"},
+    { title: "Arms Around You (feat. Maluma & Swae Lee)", artist: "XXXTENTACION", file: "song70.mp3", cover: "cover70.jpg", bgVideo: "video70.mp4" },
 ];
 
 let currentSongIndex = 0;
