@@ -6,7 +6,7 @@ const songs = [
     { title: "Chemical", artist: "By Post Malone", file: "song5.mp3", cover: "cover5.jpg" },
     { title: "A Thousands bad times", artist: "By Post Malone", file: "song6.mp3", cover: "cover6.jpg" },
     { title: "Depression & Obsession", artist: "By XXXTENTACION", file: "song7.mp3", cover: "cover7.jpg" },
-    { title: "Dirty", artist: "By KSI", file: "song8.mp3", cover: "cover8.jpg", bgVideo: "Dirty.mp4" },
+    { title: "Dirty", artist: "By KSI", file: "song8.mp3", cover: "Dirty.jpg", bgVideo: "Dirty.mp4" },
     { title: "The Party Never Ends", artist: "By Juice Wrld", file: "song9.mp3", cover: "cover9.jpg", bgVideo: "PARTYNEVERENDS.mp4" },
     { title: "Misfit", artist: "By Juice Wrld", file: "song10.mp3", cover: "cover9.jpg", bgVideo: "partyneverendsalbum.mp4" },
     { title: "AGATS2", artist: "By Juice Wrld", file: "song11.mp3", cover: "cover9.jpg", bgVideo: "AGATS2.mp4" },
